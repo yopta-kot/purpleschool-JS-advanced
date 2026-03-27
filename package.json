@@ -1,0 +1,23 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "Some book app",
+  "keywords": [
+    "books"
+  ],
+  "homepage": "https://github.com/yopta-kot/purpleschool-JS-advanced#readme",
+  "bugs": {
+    "url": "https://github.com/yopta-kot/purpleschool-JS-advanced/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yopta-kot/purpleschool-JS-advanced.git"
+  },
+  "license": "ISC",
+  "author": "Maksim Tkachou",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
