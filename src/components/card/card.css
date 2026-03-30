@@ -1,0 +1,69 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.card__image {
+	background: #B8B8B8;
+	padding-top: 10px;
+	height: 180px;
+
+	display: flex;
+	justify-content: center;
+	align-items: start;
+}
+
+.card__info {
+	display: flex;
+	flex-direction: column;
+
+	background: var(--color-black);
+	color: var(--color-white);
+	padding: 10px;
+	min-height: 150px;
+}
+
+.card__tag {
+	font-weight: 300;
+	font-size: 11px;
+	line-height: 15px;
+	margin-bottom: 3px;
+}
+
+.card__name {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 110%;
+	margin-bottom: 8px;
+}
+
+.card__author {
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.card__footer {
+	display: flex;
+	margin-top: auto;
+}
+
+.button__add {
+	border-radius: 6px;
+	width: 36px;
+	height: 32px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background: none;
+	border: 1px solid var(--color-white);
+	cursor: pointer;
+}
+
+.button__active {
+	background: var(--color-white);
+}
